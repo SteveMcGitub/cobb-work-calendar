@@ -1,14 +1,18 @@
 BEGIN:VCALENDAR
 
 VERSION:2.0
-
-PRODID:-//OpenAI//Cobb Work Calendar//EN
-
+PRODID:-//OpenAI//Cobb Maintenance Work Calendar//EN
 CALSCALE:GREGORIAN
-
 METHOD:PUBLISH
+X-WR-CALNAME:Cobb Maintenance Work Calendar
+X-WR-CALDESC:Operational holidays\, paydays with service periods\, school closures\, teacher work days\, digital learning days\, early release days\, and the last day of school.
+X-WR-TIMEZONE:America/New_York
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
 
-X-WR-CALNAME:Cobb Work Calendar 2026-2027
+
+
+
 
 BEGIN:VEVENT
 
@@ -1130,4 +1134,5 @@ TRANSP:TRANSPARENT
 
 END:VEVENT
 
+X-CALENDAR-VERSION:2.0
 END:VCALENDAR
